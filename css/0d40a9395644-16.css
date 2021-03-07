@@ -1,0 +1,415 @@
+#header #logo-espot img {
+    padding-top: 10px
+}
+
+#header #quick_links ul {
+    text-align: right
+}
+
+#header #quick_links ul li {
+    padding-left: 10px;
+    float: none
+}
+
+#header #quick_links ul a {
+    font-size: .75pxrem;
+    text-transform: uppercase;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600
+}
+
+#header #quick_links>div:not(.search-area) {
+    position: absolute;
+    right: 20px;
+    top: -6px
+}
+
+#app_wrapper.tablet .search-input {
+    width: 260px !important
+}
+
+#header_desktop_wrapper>.container {
+    padding-left: 15px !important;
+    padding-right: 15px !important
+}
+
+.promoWrapper {
+    text-align: center;
+    font-size: 12px !important;
+    padding: 0 5px
+}
+
+.promoWrapper p {
+    font-size: 12px
+}
+
+#my_dillards_bar_wrapper .barItems .ES_Consolidated_Header li {
+    display: inline-block
+}
+
+#my_dillards_bar_wrapper.backgroundBlack {
+    height: 36px;
+    top: -1px
+}
+
+.ES_Consolidated_Header {
+    display: inline-block
+}
+
+.header_promo {
+    background: #000;
+    color: #fff;
+    padding: 8px 0;
+    height: 38px;
+    max-height: 38px
+}
+
+.header_promo .skipNavigation {
+    z-index: 9999;
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 6px solid transparent;
+    background: #464646;
+    border-radius: 3px;
+    color: #fff !important;
+    font-size: .75rem;
+    outline: none !important;
+    transition: all .1s ease
+}
+
+.header_promo a.skipNavigation:active,
+.header_promo a.skipNavigation:focus {
+    top: 5px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    overflow: visible
+}
+
+.header_promo .header_promo_wrapper {
+    margin: 0 auto;
+    max-width: 1600px
+}
+
+.header_promo .promoHeading,
+.header_promo .promoHeading a {
+    display: inline-block;
+    width: 100%
+}
+
+.header_promo .promoHeading a:focus {
+    outline: 1px solid #5573d8;
+    outline-offset: 0
+}
+
+.header_promo .promoHeading p {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #fff
+}
+
+.header_promo .promoHeading p .promoTextLink {
+    text-decoration: underline
+}
+
+.header_promo .i-arrow-right {
+    float: right;
+    right: 0
+}
+
+.header_promo .i-arrow-left,
+.header_promo .i-arrow-right {
+    padding: 0 5px;
+    position: absolute;
+    background: #000;
+    z-index: 10;
+    height: 30px;
+    width: 22px;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.header_promo .i-arrow-left {
+    float: left
+}
+
+.header_promo .icon {
+    fill: #fff
+}
+
+.header_promo button {
+    overflow: hidden !important;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    background: none;
+    border: none;
+    font-size: .8125pxrem
+}
+
+.header_promo button:focus {
+    outline: 1px dotted #267cb5;
+    width: 80px;
+    height: 30px
+}
+
+.header_promo button svg.pauseButtonTippy,
+.header_promo button svg.playButtonTippy {
+    width: 15px;
+    height: 15px;
+    fill: #fff;
+    vertical-align: sub;
+    margin-right: 5px
+}
+
+.header_desktop_wrapper_promo #header {
+    height: 75px;
+    padding: 0
+}
+
+.menu_wrapper_promo .container {
+    border-bottom: none !important
+}
+
+.menu_wrapper_promo .container .menu {
+    max-width: 875px;
+    margin: auto !important
+}
+
+.dillardsBarPromo {
+    background: #fff
+}
+
+.dillardsBarPromo .shopping-bag-count-container {
+    position: relative
+}
+
+.dillardsBarPromo .cartItemCount {
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    display: block;
+    width: 28px;
+    text-align: center;
+    height: 5px;
+    font-size: 11px;
+    color: #000;
+    cursor: pointer
+}
+
+.dillardsBarPromo a .cartItemCount {
+    left: -1px
+}
+
+.dillardsBarPromo .i-empty-shopping-bag {
+    height: 25px;
+    width: 25px;
+    cursor: pointer
+}
+
+.dillardsBarPromo .i-empty-shopping-bag svg {
+    max-width: 25px !important
+}
+
+.dillardsBarPromo a[href="/c/shopbybrand"] {
+    color: #000 !important
+}
+
+.dillardsBarPromo .barItems__li a {
+    color: #000
+}
+
+.dillardsBarPromo .barItems a:link {
+    text-transform: none !important;
+    position: relative
+}
+
+.dillardsBarPromo .barItems .accountDD li {
+    line-height: normal
+}
+
+.dillardsBarPromo .barItems .accountDD .logout {
+    margin-top: 5px
+}
+
+.dillardsBarPromo .barItems .welcome-back div {
+    display: inline-block;
+    height: 20px
+}
+
+.dillardsBarPromo .myAccountDD {
+    padding-left: 20px !important;
+    color: #000;
+    letter-spacing: .05em;
+    text-transform: none;
+    position: relative
+}
+
+.dillardsBarPromo .myAccountDD:hover {
+    cursor: pointer
+}
+
+.dillardsBarPromo .myAccountDD .i-arrow-down {
+    margin-left: 2px
+}
+
+.dillardsBarPromo .myAccountDD .i-arrow-down svg {
+    height: 13px;
+    padding-top: 3px;
+    width: 13px
+}
+
+.dillardsBarPromo .accountDDContainer {
+    position: absolute;
+    top: 30px;
+    right: -47px;
+    display: none;
+    padding-top: 15px
+}
+
+.dillardsBarPromo .accountDDShowContainer {
+    display: block
+}
+
+.dillardsBarPromo .accountDD {
+    background: #fff;
+    box-shadow: 0 0 5px #bababa;
+    padding: 10px 10px 5px;
+    width: 200px;
+    position: relative
+}
+
+.dillardsBarPromo .accountDD:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    box-shadow: -1px -1px 1px #bababa;
+    position: absolute;
+    top: -8px;
+    right: 90px;
+    transform: rotate(45deg)
+}
+
+.dillardsBarPromo .accountDD ul {
+    padding: 5px 5px 0 !important
+}
+
+.dillardsBarPromo .accountDD ul .login,
+.dillardsBarPromo .accountDD ul .logout {
+    width: 100%;
+    padding: 0 0 10px !important
+}
+
+.dillardsBarPromo .accountDD ul .login a,
+.dillardsBarPromo .accountDD ul .logout a {
+    background: #000;
+    color: #fff !important;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 !important
+}
+
+.dillardsBarPromo .accountDD ul .welcome-back {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 5px
+}
+
+.dillardsBarPromo .accountDD ul li {
+    height: auto !important;
+    padding: 0 0 10px !important
+}
+
+.dillardsBarPromo .accountDD ul li a {
+    display: block;
+    text-align: left
+}
+
+.has-error .warning-tip,
+.has-success .good-tip {
+    display: block
+}
+
+.flat-size-error,
+.has-error .form-control {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(169, 68, 66, .6) !important;
+    border-color: #a94442 !important
+}
+
+.backgroundBlack {
+    background: #000 !important;
+    color: #fff !important
+}
+
+.backgroundBlack .i-empty-shopping-bag {
+    fill: #fff
+}
+
+.backgroundBlack .cartItemCount {
+    color: #fff !important
+}
+
+.backgroundBlack .myAccountDD {
+    color: #fff
+}
+
+.backgroundBlack .myAccountDD .i-arrow-down {
+    fill: #fff
+}
+
+.backgroundBlack .myAccountDD .accountDD li {
+    color: #000
+}
+
+.backgroundBlack .barItems__li #whiteLoginLink,
+.backgroundBlack .barItems__li .accountDDContainer .accountDD li.login a,
+.backgroundBlack .barItems__li .accountDDContainer .accountDD li.logout a,
+.backgroundBlack .barItems__li a {
+    color: #fff !important
+}
+
+.backgroundBlack .barItems__li .accountDDContainer .accountDD a,
+.backgroundBlack .barItems__li .accountDDContainer .accountDD li {
+    color: #000 !important
+}
+
+.myAccountDD .btn-tertiary {
+    padding: 0
+}
+
+.tabletPage .skipNavigation {
+    box-shadow: 10px -12px 10px 10px rgba(0, 0, 0, .75)
+}
+
+.tabletPage a.skipNavigation:active,
+.tabletPage a.skipNavigation:focus {
+    overflow: visible;
+    top: 4px;
+    left: 4px;
+    width: auto;
+    height: auto
+}
+
+.pauseButtonTippy svg,
+.playButtonTippy svg {
+    fill: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+#header.inline-header #main_nav>ul:not(.children),
+#header.inline-header #main_nav>ul:not(.children)>li {
+    height: 50px !important
+}
